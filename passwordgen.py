@@ -6,7 +6,7 @@
 
 import random 
 
-chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12345678910!@#$%^&*-_=+()?/<>'
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890123456789!@#$%&-_=+?!@#$%&-_=+?'
 
 length = input('password length? ')
 length = int(length)
