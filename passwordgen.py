@@ -2,7 +2,7 @@
 
 #Generate a random password of any desired length and any desired number of passwords.
 #Usage: python ./passwordgen.py 
-#This script was created on Linux using VIM and has only been tested in the command line on Linux.
+#This script was created on Linux using VIM. 
 
 import random 
 
@@ -20,7 +20,3 @@ for p in range(number):
     for c in range(length):
       password += random.choice(chars)
     print(password)
-
-
-
-
