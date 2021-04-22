@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 #Generate a random password of any desired length and any desired number of passwords.
-#Usage: python ./passwordgen.py 
-#This script was created on Linux using VIM. 
+#Usage: python ./passwordgen.py  
 
 import random 
 
