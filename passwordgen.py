@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 #Generate a random password of any desired length and any desired number of passwords.
-#Usage: python ./passwordgen.py  
-
+  
 import random 
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890123456789!@#$%&-_=+?!@#$%&-_=+?'
