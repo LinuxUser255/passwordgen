@@ -7,6 +7,7 @@ length = int(input("Password length: "))
 
 def password_generator(length):
     password = ''  # empty string
+    
     for i in range(length):
         password += secrets.choice(string.ascii_lowercase)
         password += secrets.choice(string.ascii_uppercase)
