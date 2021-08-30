@@ -1,2 +1,2 @@
-# passwordgen
-python script for generating passwords
+# Password generator
+python script for generating random passwords
