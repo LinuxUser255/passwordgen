@@ -1,20 +1,21 @@
 #!/usr/bin/python3
 
 #Generate a random password of any desired length and any desired number of passwords.
-  
 import random 
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890123456789!@#$%&-_=+?!@#$%&-_=+?'
+length = int(input("Number length: "))
+number = int(input("Number of random numbers: "))
 
-length = input('password length? ')
-length = int(length)
 
-number = input('number of passwords? ')
-number = int(number)
- 
+def generate_number() -> str:
+    for n in range(number):
+        pass_list = ''
+        for i in range(length):
+          pass_list += random.choice(chars)
+        print(pass_list)
 
-for p in range(number):
-    password = ''
-    for c in range(length):
-      password += random.choice(chars)
-    print(password)
+
+if __name__=="__main__":
+    generate_number()
+
