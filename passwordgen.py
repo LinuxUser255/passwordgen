@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 #Generate a random password of any desired length and any desired number of passwords.
 import random 
