@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+# Password Generator Script
+# by Chris Bingham
+# License: GNU GPLv3
 #Generate a random password of any desired length and any desired number of passwords.
 import random 
 
