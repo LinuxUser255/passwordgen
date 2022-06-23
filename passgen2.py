@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+# Password gerator script
+# by Chris Bingham
+# License: GNU GPLv3
 # 1:4 character output in this script. For every one char you input, four are generated.
 # Example: If you want a 12 char pw, then enter a pw length of just three characters.
 
